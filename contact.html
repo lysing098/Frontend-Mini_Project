@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- meta -->
+    <title>moderno</title>
+    <meta
+      name="description"
+      content="Discover our handcrafted organic soaps and candles, made with natural ingredients to nourish your skin and create a calming ambiance. Experience the perfect blend of purity and relaxation with our artisanal collections."
+    />
+    <meta
+      name="keywords"
+      content="handcrafted soaps, organic candles, natural skincare, eco-friendly products, aromatherapy, handmade beauty, sustainable living, essential oils, bath and body, toxin-free soaps"
+    />
+    <meta property="og:title" content="Handcrafted Organic Soaps & Candles" />
+    <meta
+      property="og:description"
+      content="Experience the luxury of handcrafted organic soaps and candles, made with natural ingredients to nourish your skin and uplift your senses. Pure, eco-friendly, and perfect for self-care."
+    />
+    <meta property="og:url" content="./img/pexels-vlada-karpovich-6755753-122.jpg" />
+    <meta property="og:image" content="./img/pexels-vlada-karpovich-6755753-122.jpg" />
+    <meta name="twitter:card" content="./img/pexels-vlada-karpovich-6755753-122.jpg" />
+    <meta name="twitter:title" content="Handcrafted Organic Soaps & Candles" />
+    <meta
+      name="twitter:description"
+      content="Indulge in our handcrafted organic soaps and candles, designed for relaxation and well-being. Made with love, sustainability, and natural ingredients."
+    />
+    <meta name="twitter:image" content="./img/pexels-vlada-karpovich-6755753-122.jpg" />
+  </head>
+  <body class="max-md:text-[10px]">
+    <!-- header -->
+    <header class="mb-[153px]">
+      <div
+        class="top-header mx-[50px] flex justify-between items-center mt-[25px] mb-[10px] max-sm:mx-0"
+      >
+        <div class="social flex gap-[20px] max-lg:hidden">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-solid fa-message"></i>
+        </div>
+
+        <!-- hamburger bar -->
+        <div class="hamburger-bar lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo ">
+          <a href="./index.html">
+            <img src="./img/ricky-1723893050.svg" alt="logo" class="max-md:w-[80%]"/>
+          </a>
+        </div>
+        
+        <div class="icon flex gap-[20px] max-lg:hidden">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="lg:hidden"><i class="fa-solid fa-cart-shopping"></i></div>
+
+
+      </div>
+      <hr class="border-black" />
+
+      <div
+        class="buttom-header mx-[50px] flex justify-between mt-[10px] max-lg:hidden"
+      >
+        <div class="tel">
+          <p>(+855) 93 990 910</p>
+        </div>
+        <nav>
+          <ul class="uppercase flex gap-[52px] ">
+            <li><a href="./shop.html">shop</a></li>
+            <li><a href="./story.html">our story</a></li>
+            <li><a href="./blog.html">blog</a></li>
+            <li><a href="./contact.html">contact us</a></li>
+          </ul>
+        </nav>
+        <div class="open-close uppercase">
+          <p>mon-sun: 8:00 - 18:00</p>
+        </div>
+      </div>
+
+      
+    </header>
+
+    <!-- main -->
+    <main>
+      <section
+        class="mt-[162px] bg-[#D7D7CB] flex gap-[119px] justify-center items-center max-lg:flex-col"
+      >
+        <div class="ml-[204px] max-lg:ml-0 max-xl:ml-0">
+          <h1 class="text-[45px] max-sm:text-[20px] max-xl:text-center">
+            LET'S STAY <br />
+            CONNECTED
+          </h1>
+          <p class="my-[24px] max-sm:w-auto max-xl:text-center">
+            If you have questions or special inquiries, you're welcome to
+            contact me or fill out this form
+          </p>
+          <form class="">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-[125px] mb-[20px] max-lg:gap-1">
+              <!-- First Name -->
+              <div>
+                <label for="first-name" class="block text-sm font-medium text-gray-700">First name *</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  required
+                  class="mt-1 block w-full  border-gray-300 shadow-sm focus:ring-gray-500 focus:border-gray-500"
+                />
+              </div>
+              <!-- Last Name -->
+              <div>
+                <label for="last-name" class="block text-sm font-medium text-gray-700">Last name *</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  required
+                  class="mt-1 block w-full  border-gray-300 shadow-sm focus:ring-gray-500 focus:border-gray-500"
+                />
+              </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-[125px] mb-[20px] max-lg:gap-1">
+              <!-- Email -->
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="mt-1 block w-full  border-gray-300 shadow-sm focus:ring-gray-500 focus:border-gray-500"
+                />
+              </div>
+              <!-- Phone -->
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700">Phone *</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  class="mt-1 block w-full  border-gray-300 shadow-sm focus:ring-gray-500 focus:border-gray-500"
+                />
+              </div>
+            </div>
+            <!-- Message -->
+            <div class="mb-[20px]">
+              <label for="message" class="block text-sm font-medium text-gray-700">Leave me a message...</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="mt-1 block w-full  border-gray-300 shadow-sm focus:ring-gray-500 focus:border-gray-500"
+              ></textarea>
+            </div>
+            <!-- Submit Button -->
+            <div class="flex justify-center">
+              <button
+                type="submit"
+                class="bg-[#5E5E4A] text-white py-[5px] px-[25px] w-[190px] h-[38px]"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+          
+        </div>
+        <img
+          src="./img/c837a6_ec867dc9a1344ab497c8ce94b89a73ff~mv2.jpg"
+          alt=""
+          class="w-[610px] h-[656px] max-xl:hidden"
+        />
+      </section>
+    </main>
+    <hr class="border-black mt-[176px]" />
+    <!-- footer -->
+    <footer class="mr-[50px] ml-[50px] mt-[40px] flex justify-between gap-[30px] flex-wrap ">
+
+      <!-- sign up -->
+      <div>
+        <p class="mb-[30px] lg:w-[200px]">
+          Sign up to get 10% off your first order and stay up to date on the
+          latest product releases, special offers and news
+        </p>
+        <input
+          type="text"
+          placeholder="Your Email *"
+          class="py-2 px-2.5 border border-[#838383] mb-[30px] w-[295px] lg:w-[200px] max-md:w-auto"
+        /><br />
+        <button class="px-[25px] py-[5px] text-[14px] border border-black uppercase">
+          subcribe
+        </button>
+      </div>
+
+      <!-- list -->
+      <div class="uppercase flex flex-col gap-[30px]">
+        <a href="#">shop</a>
+        <a href="#">faq</a>
+        <a href="#">shipping</a>
+        <a href="#">return</a>
+        <a href="#">carrers</a>
+        <a href="#">term & conditions</a>
+        <a href="#">privacy policy</a>
+      </div>
+
+      <!-- contact  -->
+      <div class="flex flex-col gap-[30px] w-[440px] lg:w-[390px]">
+        <p class="">If you have any questions regarding your order, products or our services, please contact our customer service.</p>
+        <p>MON-Sun: 8:00 - 18:00</p>
+        <p>PHONE: (+855) 93 990 910</p>
+        <p>EMAIL: moderno@gmail.com</p>
+        <p class="">ADDRESS: No. 24, St. 562, Sangkat Boeung kak I, Khan Toul Kork, Phnom Penh, Cambodia</p>
+      </div>
+    </footer>
+  </body>
+</html>
